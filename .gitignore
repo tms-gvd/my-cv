@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,latex
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,latex
 
+### Personal ###
+/assets
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
