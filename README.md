@@ -1,7 +1,7 @@
 CV with $\LaTeX$
 =
 
-From the template of [https://github.com/arasgungore/arasgungore-CV](arasgungore)
+From the template of [arasgungore](https://github.com/arasgungore/arasgungore-CV)
 
 ## Run these commands to compile
 
