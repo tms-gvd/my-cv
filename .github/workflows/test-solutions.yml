@@ -24,6 +24,7 @@ jobs:
         user_email: 'thomas.gaviard@gmail.com'
         user_name: 'tms-gvd'
         commit_message: 'Automatic update french CV'
+        destination_branch: 'master'
 
     - name: Pushes english CV
       uses: dmnemec/copy_file_to_another_repo_action@main
@@ -36,3 +37,4 @@ jobs:
         user_email: 'thomas.gaviard@gmail.com'
         user_name: 'tms-gvd'
         commit_message: 'Automatic update of english CV'
+        destination_branch: 'master'
