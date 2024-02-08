@@ -13,25 +13,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Pushes french CV
+    - name: Pushes CV
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'french.pdf'
-        destination_repo: 'tms-gvd/tms-gvd.github.io'
-        destination_folder: 'assets/pdf'
-        user_email: 'thomas.gaviard@gmail.com'
-        user_name: 'tms-gvd'
-        commit_message: 'Automatic update french CV'
-        destination_branch: 'master'
-
-    - name: Pushes english CV
-      uses: dmnemec/copy_file_to_another_repo_action@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source_file: 'english.pdf'
+        source_file: 'main.pdf'
         destination_repo: 'tms-gvd/tms-gvd.github.io'
         destination_folder: 'assets/pdf'
         user_email: 'thomas.gaviard@gmail.com'
