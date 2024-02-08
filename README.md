@@ -8,3 +8,5 @@ Inspired from the template of [arasgungore](https://github.com/arasgungore/arasg
 ```
 pdflatex main.tex
 ```
+
+CV [here](main.pdf)
